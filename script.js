@@ -2,11 +2,10 @@ function firstChar(text) {
   // your code here
 	for(let i=0;i<text.length;i++){
 		if(text[i] !== ''){
-			console.log(text[i]);
-			break;
+			return "'"+text[i]+"'";
 		}
 	}
-	console.log('';)
+	return "''";
 }
 
 // Do not change the code below
