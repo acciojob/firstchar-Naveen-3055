@@ -1,5 +1,18 @@
 function firstChar(text) {
   // your code here
+	for(let i=0;i<text.length;i++){
+		if(text[i]===''){
+			continue;
+		}
+		else{
+			console.log(text[i]);
+			break;
+		}
+		if(i===text.length-1){
+			console.log('');
+		}
+	}
+	
 }
 
 // Do not change the code below
